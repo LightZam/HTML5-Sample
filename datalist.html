@@ -1,0 +1,40 @@
+<!documect>
+<html>
+<head></head>
+<body>
+	<div>
+		<datalist id="pet-list">
+			<option value="woody">Woody</option>
+			<option value="greydo">Greydo</option>
+		</datalist>
+		<input type="text" list="pet-list">
+	</div>
+	<br>
+	<div>
+		<datalist id="pet-list-select">
+			<select>
+				<option value="woody">Woody</option>
+				<option value="greydo">Greydo</option>
+			</select>
+		</datalist>
+		<input type="text" list="pet-list-select">
+	</div>
+	<br>
+	<div>
+		<form>
+			<label id="pet-label" for="pet-datalist">Pet</label>
+			<datalist id="pet-list-select-info">
+				<select name="pet-datalist" aria-labelledby="pet-label">
+					<option value="woody">Woody</option>
+					<option value="greydo">Greydo</option>
+				</select>
+				<p id="info-label">go extra</p>
+			</datalist>
+			<input id="pet-input" type="text" list="pet-list-select-info">
+		</form>
+	</div>
+	<script>
+
+	</script>
+</body>
+</html>
